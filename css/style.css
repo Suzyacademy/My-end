@@ -1,0 +1,160 @@
+body{
+	width: 80%;
+	margin: 0 auto;
+	background: url('https://cdn.wallpapersafari.com/41/12/y40PNR.jpg');
+	background-size: cover;
+	background-position: center;
+	padding-top: 50px;
+	background-repeat: no-repeat;
+}
+header{
+	background: rgba(0, 0, 0, 0.4	);
+	box-shadow: 0 5px 6px gold;
+	border-radius: 5px;
+	transition: 1s;
+	transition-delay: 2s;
+}
+header:hover ul span{
+	text-shadow: 0 5px 20px blue;
+}
+header:hover{
+	background: #1F252A;
+	transition: 1s;
+}
+header ul{
+	display: inline-flex;
+	margin-left: 600px;
+}
+header ul span{
+	margin-left: -500px;
+	color: white;
+	font-weight: bold;
+}
+header:hover ul span{
+	margin-left: -500px;
+	opacity: 1;
+	transition: 1s;
+}
+header li{
+	list-style:none;
+}
+header ul li a{
+	padding-left: 20px;
+	list-style: none;
+	color: white;
+	text-decoration: none;
+}
+
+header a:hover{
+	color: gold;
+	font-weight: bold;
+}
+.abut:visited{
+	color: gold;
+}
+
+.dark{
+	background: rgba(0, 0, 0, 0.4);
+	height: 500px;
+	margin-top: 8px;
+	border-radius: 8px;
+	box-shadow: 5px 5px 10px rgba(0,0,176,.9);
+}
+.name{
+	margin-left: 140px;
+	padding-top: 80px;
+}
+.name span{
+		color: gold;
+		font-weight: bold;
+}
+.name h1{
+	color: white;
+}
+.name i{
+	color: white;
+
+}
+.name i:hover{
+	color: gold;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+.photo img{
+	width:300px;
+	padding-top: 90px;
+	margin-right: 150px;
+}
+
+.progress{
+	width: 400px;
+	height: 4px;
+	border-radius: 2px;
+	border:1px solid white;
+	 position: relative;
+	 box-shadow: 0 2px 10px orange;
+}
+.progress span{
+	position: absolute;
+
+}
+.progress span{
+	top: 0;
+	width: 390px;
+	height: 4px;
+	background: orange;
+}
+
+
+
+
+
+
+.progress2{
+	width: 400px;
+	height: 4px;
+	border-radius: 2px;
+	border:1px solid white;
+	 position: relative;
+  margin-left: 50px;
+  box-shadow: 0 2px 10px blue;
+}
+.progress2 span{
+	position: absolute;
+	display: block;
+}
+.progress2 span:nth-child(1){
+	top: 0;
+	transition: 1s;
+	width: 400px;
+	height: 4px;
+	background:blue;
+}
+
+
+
+
+
+.progress3{
+	width: 400px;
+	height: 4px;
+	border-radius: 2px;
+	border:1px solid white;
+	 position: relative;
+	 box-shadow: 0 2px 10px purple;
+  margin-left: 100px;
+}
+.progress3 span{
+	position: absolute;
+	display: block;
+}
+.progress3 span:nth-child(1){
+	top: 0;
+	transition: 1s;
+	width: 360px;
+	height: 4px;
+	background: purple;
+}

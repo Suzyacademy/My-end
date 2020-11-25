@@ -1,0 +1,182 @@
+body{
+	width: 80%;
+	margin: 0 auto;
+	background: url('http://alloads.ru/b/original_8592_oboi_chernyj_fon_s_uzorami_i_zavitkami_1920x1200.jpg');
+	background-size: cover;
+	padding-top: 50px;
+}
+header{
+	background: #1F252A;
+	box-shadow: 0 5px 6px gold;
+	border-radius: 5px;
+	transition: 1s;
+	transition-delay: 2s;
+}
+header:hover{
+	background: #1F252A;
+	transition: 1s;
+
+}
+
+header ul{
+	display: inline-flex;
+	margin-left: 600px;
+}
+header ul span{
+	margin-left: -600px;
+	opacity: 0;
+	color: white;
+	font-weight: bold;
+	transition-delay: 8888888s;
+}
+header:hover ul span{
+	margin-left: -500px;
+	opacity: 1;
+	transition: 1s;
+}
+header li{
+	list-style:none;
+}
+header ul li a{
+	padding-left: 20px;
+	list-style: none;
+	color: white;
+	text-decoration: none;
+}
+header ul li a:link{
+	color: gold;
+}
+header a:hover{
+	color: gold;
+	font-weight: bold;
+}
+.abut:visited{
+	color: gold;
+}
+
+.dark{
+	background: #1F252A;
+	height: 500px;
+	margin-top: 8px;
+	border-radius: 8px;
+	box-shadow: 20px 11px 20px rgba(0,0,0,.9);
+}
+.name{
+	margin-left: 140px;
+	padding-top: 80px;
+}
+.name span{
+		color: gold;
+		font-weight: bold;
+}
+.name h1{
+	color: white;
+}
+.name i{
+	color: white;
+
+}
+.name i:hover{
+	color: gold;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+.photo img{
+	width:300px;
+	padding-top: 90px;
+	margin-right: 150px;
+}
+
+.progress{
+	width: 200px;
+	height: 4px;
+	border-radius: 2px;
+	border:1px solid white;
+	 position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+.progress span{
+	position: absolute;
+	display: block;
+}
+.progress span:nth-child(1){
+	top: 0;
+	transition-delay: 888888s;
+	left: -170px;
+	width: 170px;
+	height: 4px;
+	background: linear-gradient(90deg,transparent,orange);
+}
+.dark:hover .progress span:nth-child(1){
+	left: 10px;
+	transition: 3s;
+	transition-delay: 0.3s;
+}
+
+
+
+
+
+.progress2{
+	width: 200px;
+	height: 4px;
+	border-radius: 2px;
+	border:1px solid white;
+	 position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin-left: 50px;
+}
+.progress2 span{
+	position: absolute;
+	display: block;
+}
+.progress2 span:nth-child(1){
+	top: 0;
+	transition-delay: 888888s;
+	left: -170px;
+	width: 170px;
+	height: 4px;
+	background: linear-gradient(90deg,transparent,blue);
+}
+.dark:hover .progress2 span:nth-child(1){
+	left:30px;
+	transition: 3s;
+	transition-delay: 0.8s;
+}
+
+
+
+
+
+.progress3{
+	width: 200px;
+	height: 4px;
+	border-radius: 2px;
+	border:1px solid white;
+	 position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin-left: 100px;
+}
+.progress3 span{
+	position: absolute;
+	display: block;
+}
+.progress3 span:nth-child(1){
+	top: 0;
+	transition-delay: 888888s;
+	left: -170px;
+	width: 170px;
+	height: 4px;
+	background: linear-gradient(90deg,transparent,yellow);
+}
+.dark:hover .progress3 span:nth-child(1){
+	left: -30px;
+	transition: 3s;
+	transition-delay: 1s;
+}
